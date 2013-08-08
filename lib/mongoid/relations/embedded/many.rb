@@ -616,7 +616,8 @@ module Mongoid
           def valid_options
             [
               :as, :cascade_callbacks, :cyclic, :order, :store_as,
-              :before_add, :after_add, :before_remove, :after_remove
+              :before_add, :after_add, :before_remove, :after_remove,
+              :versioned
             ]
           end
 
